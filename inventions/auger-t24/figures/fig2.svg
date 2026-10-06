@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<rect width="800" height="600" fill="#ffffff"/>
+<!-- Controller box -->
+<rect x="300" y="100" width="200" height="120" fill="none" stroke="#111" stroke-width="2"/>
+<text x="340" y="140" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111">Dispatch Controller (20)</text>
+<text x="320" y="165" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#111">Headway calc block</text>
+<text x="320" y="180" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#111">Queue threshold 18</text>
+<!-- Inputs -->
+<rect x="50" y="80" width="80" height="40" fill="none" stroke="#111" stroke-width="2"/>
+<text x="55" y="105" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">IR Counter (12)</text>
+<line x1="130" y1="100" x2="300" y2="130" stroke="#111" stroke-width="1.5"/>
+<rect x="50" y="150" width="80" height="40" fill="none" stroke="#111" stroke-width="2"/>
+<text x="55" y="175" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">CAN Telemetry</text>
+<line x1="130" y1="170" x2="300" y2="150" stroke="#111" stroke-width="1.5"/>
+<!-- Output to tablet -->
+<rect x="550" y="200" width="100" height="50" fill="none" stroke="#111" stroke-width="2"/>
+<text x="560" y="230" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#111">Tablet Interface</text>
+<line x1="500" y1="160" x2="550" y2="225" stroke="#111" stroke-width="1.5"/>
+<!-- Vehicle icon -->
+<rect x="650" y="280" width="60" height="30" fill="none" stroke="#111" stroke-width="2"/>
+<text x="660" y="300" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">Model Y</text>
+<line x1="600" y1="225" x2="650" y2="295" stroke="#111" stroke-width="1.5"/>
+<!-- Timing labels -->
+<text x="200" y="80" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">15 s sample</text>
+<text x="420" y="80" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">8 s margin</text>
+<!-- Hatching on controller section -->
+<path d="M310 110 L490 110 L490 210 L310 210 Z" fill="none" stroke="#111" stroke-width="1"/>
+<path d="M315 115 L485 115" stroke="#111" stroke-width="0.5"/>
+<path d="M315 125 L485 125" stroke="#111" stroke-width="0.5"/>
+<path d="M315 135 L485 135" stroke="#111" stroke-width="0.5"/>
+<path d="M315 145 L485 145" stroke="#111" stroke-width="0.5"/>
+<!-- Leader lines -->
+<line x1="90" y1="120" x2="150" y2="100" stroke="#111" stroke-width="1"/>
+<text x="100" y="70" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">Passenger count</text>
+<line x1="90" y1="170" x2="150" y2="160" stroke="#111" stroke-width="1"/>
+<text x="100" y="195" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">Speed/position</text>
+<line x1="600" y1="225" x2="620" y2="260" stroke="#111" stroke-width="1"/>
+<text x="580" y="270" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">Velocity setpoint</text>
+<text x="400" y="580" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111" text-anchor="middle">FIG. 2</text>
+</svg>
