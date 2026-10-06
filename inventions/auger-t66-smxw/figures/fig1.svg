@@ -1,0 +1,51 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#fff"/>
+  <!-- Palm base -->
+  <rect x="50" y="400" width="200" height="80" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Proximal phalanx -->
+  <rect x="200" y="300" width="120" height="40" fill="none" stroke="#111" stroke-width="2" transform="rotate(-20 260 320)"/>
+  <!-- Middle phalanx -->
+  <rect x="300" y="220" width="100" height="35" fill="none" stroke="#111" stroke-width="2" transform="rotate(-35 350 237)"/>
+  <!-- Distal phalanx -->
+  <rect x="380" y="150" width="70" height="30" fill="none" stroke="#111" stroke-width="2" transform="rotate(-50 415 165)"/>
+  <!-- Tendon 1 proximal -->
+  <path d="M150 440 L220 340 L310 260 L400 180" fill="none" stroke="#111" stroke-width="1.5"/>
+  <!-- Tendon 2 middle -->
+  <path d="M170 430 L240 310 L330 230 L410 170" fill="none" stroke="#111" stroke-width="1.5"/>
+  <!-- Pulleys -->
+  <circle cx="230" cy="330" r="8" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="320" cy="245" r="7" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="400" cy="175" r="6" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Motor drum -->
+  <circle cx="120" cy="440" r="15" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Motor -->
+  <rect x="70" y="420" width="50" height="40" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Encoder at joints -->
+  <circle cx="260" cy="320" r="5" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="350" cy="237" r="5" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="415" cy="165" r="5" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Controller box -->
+  <rect x="30" y="500" width="100" height="60" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Leader lines and numerals -->
+  <line x1="120" y1="455" x2="50" y2="480" stroke="#111" stroke-width="1"/>
+  <text x="20" y="485" font-family="Helvetica, Arial, sans-serif" font-size="12">22</text>
+  <line x1="260" y1="325" x2="200" y2="380" stroke="#111" stroke-width="1"/>
+  <text x="180" y="395" font-family="Helvetica, Arial, sans-serif" font-size="12">12</text>
+  <line x1="320" y1="252" x2="280" y2="300" stroke="#111" stroke-width="1"/>
+  <text x="260" y="315" font-family="Helvetica, Arial, sans-serif" font-size="12">12</text>
+  <line x1="400" y1="181" x2="360" y2="220" stroke="#111" stroke-width="1"/>
+  <text x="340" y="235" font-family="Helvetica, Arial, sans-serif" font-size="12">12</text>
+  <line x1="120" y1="425" x2="80" y2="410" stroke="#111" stroke-width="1"/>
+  <text x="55" y="405" font-family="Helvetica, Arial, sans-serif" font-size="12">14</text>
+  <line x1="80" y1="530" x2="150" y2="470" stroke="#111" stroke-width="1"/>
+  <text x="155" y="465" font-family="Helvetica, Arial, sans-serif" font-size="12">24</text>
+  <line x1="230" y1="338" x2="190" y2="360" stroke="#111" stroke-width="1"/>
+  <text x="170" y="375" font-family="Helvetica, Arial, sans-serif" font-size="12">20</text>
+  <line x1="320" y1="252" x2="300" y2="280" stroke="#111" stroke-width="1"/>
+  <text x="285" y="295" font-family="Helvetica, Arial, sans-serif" font-size="12">16</text>
+  <!-- Hatching on motor drum section -->
+  <path d="M105 425 L135 455" fill="none" stroke="#111" stroke-width="1"/>
+  <path d="M110 430 L140 460" fill="none" stroke="#111" stroke-width="1"/>
+  <!-- Caption -->
+  <text x="400" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">FIG. 1</text>
+</svg>
