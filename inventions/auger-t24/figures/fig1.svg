@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<rect width="800" height="600" fill="#ffffff"/>
+<!-- Tunnel outline -->
+<rect x="50" y="250" width="700" height="80" fill="none" stroke="#111" stroke-width="2"/>
+<!-- Stations -->
+<rect x="80" y="265" width="40" height="50" fill="none" stroke="#111" stroke-width="2"/>
+<text x="100" y="295" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111">Westgate</text>
+<rect x="200" y="265" width="40" height="50" fill="none" stroke="#111" stroke-width="2"/>
+<text x="210" y="295" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#111">Resorts</text>
+<rect x="400" y="265" width="40" height="50" fill="none" stroke="#111" stroke-width="2"/>
+<text x="405" y="295" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">LVCC</text>
+<rect x="600" y="265" width="40" height="50" fill="none" stroke="#111" stroke-width="2"/>
+<text x="605" y="295" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#111">Encore</text>
+<!-- Sidings -->
+<path d="M150 250 Q170 220 190 250" fill="none" stroke="#111" stroke-width="2"/>
+<path d="M350 250 Q370 220 390 250" fill="none" stroke="#111" stroke-width="2"/>
+<path d="M550 250 Q570 220 590 250" fill="none" stroke="#111" stroke-width="2"/>
+<!-- Vehicles -->
+<rect x="120" y="270" width="25" height="12" fill="none" stroke="#111" stroke-width="2"/>
+<rect x="320" y="270" width="25" height="12" fill="none" stroke="#111" stroke-width="2"/>
+<rect x="520" y="270" width="25" height="12" fill="none" stroke="#111" stroke-width="2"/>
+<!-- Controller -->
+<rect x="350" y="80" width="100" height="60" fill="none" stroke="#111" stroke-width="2"/>
+<text x="375" y="115" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111">Controller (20)</text>
+<!-- Lines to controller -->
+<line x1="400" y1="140" x2="400" y2="250" stroke="#111" stroke-width="1" stroke-dasharray="4"/>
+<line x1="100" y1="280" x2="350" y2="110" stroke="#111" stroke-width="1" stroke-dasharray="4"/>
+<!-- Infrared counters -->
+<circle cx="85" cy="260" r="4" fill="none" stroke="#111" stroke-width="2"/>
+<text x="70" y="245" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">12</text>
+<circle cx="205" cy="260" r="4" fill="none" stroke="#111" stroke-width="2"/>
+<text x="190" y="245" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">12</text>
+<!-- Traffic lights at sidings -->
+<circle cx="170" cy="235" r="5" fill="none" stroke="#111" stroke-width="2"/>
+<text x="155" y="225" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">28</text>
+<circle cx="370" cy="235" r="5" fill="none" stroke="#111" stroke-width="2"/>
+<text x="355" y="225" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">28</text>
+<circle cx="570" cy="235" r="5" fill="none" stroke="#111" stroke-width="2"/>
+<text x="555" y="225" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">28</text>
+<!-- Leader lines and labels -->
+<line x1="100" y1="280" x2="70" y2="300" stroke="#111" stroke-width="1"/>
+<text x="40" y="310" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">Station platform</text>
+<line x1="400" y1="250" x2="400" y2="200" stroke="#111" stroke-width="1"/>
+<text x="410" y="195" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">Siding (400 m spacing)</text>
+<line x1="320" y1="270" x2="280" y2="300" stroke="#111" stroke-width="1"/>
+<text x="250" y="310" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#111">Vehicle</text>
+<text x="400" y="580" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111" text-anchor="middle">FIG. 1</text>
+</svg>
